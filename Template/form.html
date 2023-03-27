@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill Based Form</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"/>
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="static/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="static/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"/>
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="static/css/main.css" >
+
+    <!-- Favicons -->
+    <link href="static/img/favicon.png" rel="icon" />
+    <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <header id="header" class="header d-flex align-items-center">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 style="color: black; font-family: Roboto, sans-serif">
+            CareerGuide<span>.</span>
+          </h1>
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a
+                href="index.html"
+                style="
+                  color: Black;
+                  font-family: Open Sans, system-ui, -apple-system, Segoe UI,
+                    Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans,
+                    sans-serif, Apple Color Emoji, Segoe UI Emoji,
+                    Segoe UI Symbol, Noto Color Emoji;
+                  font-size: 14px;
+                  font-weight: 500;
+                  text-transform: uppercase;
+                "
+                >Home</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="form.html"
+                class="active"
+                style="
+                  color: Black;
+                  font-family: Open Sans, system-ui, -apple-system, Segoe UI,
+                    Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans,
+                    sans-serif, Apple Color Emoji, Segoe UI Emoji,
+                    Segoe UI Symbol, Noto Color Emoji;
+                  font-size: 14px;
+                  font-weight: 500;
+                  text-transform: uppercase;
+                "
+                >Form</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="about.html"
+                style="
+                  color: Black;
+                  font-family: Open Sans, system-ui, -apple-system, Segoe UI,
+                    Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans,
+                    sans-serif, Apple Color Emoji, Segoe UI Emoji,
+                    Segoe UI Symbol, Noto Color Emoji;
+                  font-size: 14px;
+                  font-weight: 500;
+                  text-transform: uppercase;
+                "
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                style="
+                  color: Black;
+                  font-family: Open Sans, system-ui, -apple-system, Segoe UI,
+                    Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans,
+                    sans-serif, Apple Color Emoji, Segoe UI Emoji,
+                    Segoe UI Symbol, Noto Color Emoji;
+                  font-size: 14px;
+                  font-weight: 500;
+                  text-transform: uppercase;
+                "
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+  </head>
+  <body>
+    <section class="justify-content-center">
+      <form method="POST" action="pre">
+
+        <h1>Skill Based Form To Gather Information</h1>
+        <div class="form-group justify-content-center mb-4">
+          <label>Programming Concept(1-100):</label><br />
+          <input
+            type="text"
+            class="form-control"
+            id="Programming"
+            placeholder="Programming Concept(1-100)"
+          />
+        </div>
+        <br />
+        <div class="form-group justify-content-center mb-4">
+          <label>Computer Networks(1-100):</label><br />
+          <input
+            type="text"
+            class="form-control"
+            id="ComputerNetworks"
+            placeholder="Computer Networks(1-100)"
+          />
+        </div>
+        <br />
+        <div class="form-group justify-content-center mb-4">
+          <label>Logical Quotient(1-100):</label><br />
+          <input
+            type="text"
+            class="form-control"
+            id="Logical_quotient"
+            placeholder="Logical Quotient(1-100)"
+          />
+        </div>
+        <br />
+        <div class="form-group justify-content-center mb-4">
+          <label>Coding Skills(1-100):</label><br />
+          <input
+            type="text"
+            class="form-control"
+            id="coding_skills"
+            placeholder="Coding Skills(1-100)"
+          />
+        </div>
+        <br/>
+        <div class="form-group justify-content-center mb-4">
+          <label>Public Speaking(1-100):</label><br />
+          <input
+            type="text"
+            class="form-control"
+            id="public_speaking"
+            placeholder="Public Speaking(1-100)"
+          />
+        </div>
+        <br />
+        <div>
+          <label>Self-Learning Capability:</label><br />
+          <select id="Self_learn">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="Certifications">Certifications:</label>
+
+          <select id="Certifications">
+            <option value="shell Programming">Shell Programming</option>
+            <option value="machine Learning">Machine Learning</option>
+            <option value="app Development">App Development</option>
+            <option value="python">Python</option>
+            <option value="r programming">R Programming</option>
+            <option value="information security">Information Security</option>
+            <option value="hadoop">Hadoop</option>
+            <option value="distro making">Distro Making</option>
+            <option value="full stack">Full stack</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="Workshops">Workshops:</label>
+
+          <select id="Workshops">
+            <option value="cloud computing">cloud computing</option>
+            <option value="database security">Database Security</option>
+            <option value="web technologies">Web Technologies</option>
+            <option value="data science">Data Science</option>
+            <option value="testing">Testing</option>
+            <option value="hacking">Hacking</option>
+            <option value="game development">Game Development</option>
+            <option value="system designing">System Designing</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label>Memory Capability Score</label><br />
+          <select id="Memory">
+            <option value="High">High</option>
+            <option value="Medium">Moderate</option>
+            <option value="low">Low</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="InterestedSubjects">Interested Subjects:</label>
+
+          <select id="InterestedSubjects">
+            <option value="cloud computing">Cloud Computing</option>
+            <option value="networks">Networks</option>
+            <option value="hacking">Hacking</option>
+            <option value="Computer Architecture">Computer Architecture</option>
+            <option value="programming">Programming</option>
+            <option value="parallel computing">Parallel Computing</option>
+            <option value="IOT">IOT</option>
+            <option value="data engineering">Data Engineering</option>
+            <option value="Software Engineering">Software Engineering</option>
+            <option value="Management">Management</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="InterestedCareer_area">Interested Career Area:</label>
+
+          <select id="InterestedCareer_area">
+            <option value="system developer">System Developer</option>
+            <option value="Business process analyst">
+              Business process analyst
+            </option>
+            <option value="developer">Developer</option>
+            <option value="testing">Testing</option>
+            <option value="security">Programming</option>
+            <option value="cloud computing">Cloud Computing</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="TypeofCompany">Type of company want to Work with:</label>
+
+          <select id="TypeofCompany">
+            <option value="Web Services">Web Services</option>
+            <option value="SAaS services">SAaS services</option>
+            <option value="Sales and Marketing">Sales and Marketing</option>
+            <option value="Testing and Maintainance Services">
+              Testing and Maintainance Services
+            </option>
+            <option value="product development">Product Development</option>
+            <option value="BPA">BPA</option>
+            <option value="Service Based">Service Based</option>
+            <option value="Product based">Product based</option>
+            <option value="Cloud Services">Cloud Services</option>
+            <option value="Finance">Finance</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label>Types of Job role:</label><br />
+          <select id="jobRole">
+            <option value="Management">Management</option>
+            <option value="Technical">Technical</option>
+          </select>
+        </div>
+            <br />
+        <br />
+        <div>
+          <label>Worked in Team:</label><br />
+          <select id="work_teams">
+            <option value="wtYes">Yes</option>
+            <option value="wtNo">No</option>
+          </select>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+        <div style="text-align: center;">
+          <h1>Suggested job role for you is:</h1>
+        <h1 style='color:black'>{{ result }}</h1>
+        </div>
+
+      </form>
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-legal text-center position-relative">
+        <div class="container">
+          <div class="copyright">
+            &copy; Copyright <strong><span>CareerGuide.</span></strong
+            >. All Rights Reserved
+          </div>
+          <div class="credits"></div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    
+  </body>
+</html>
